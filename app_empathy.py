@@ -6,7 +6,7 @@ import argparse
 
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-small')
-model = AutoModelWithLMHead.from_pretrained('model')
+model = AutoModelWithLMHead.from_pretrained('microsoft/DialoGPT-medium')
 
 
 app = Flask(__name__)
